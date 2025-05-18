@@ -8641,7 +8641,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.16666666666666785
+    m_BlendOutDuration: 0.16666666666666963
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -8668,7 +8668,25 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -8683,7 +8701,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: mixamo.com
   - m_Version: 1
-    m_Start: 21.166666666666668
+    m_Start: 21.166666666666664
     m_ClipIn: 0
     m_Asset: {fileID: 8609999637072994595}
     m_Duration: 4
@@ -8691,7 +8709,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 1901009520312897600}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.31666666666666643
+    m_BlendInDuration: 0.31666666666667
     m_BlendOutDuration: 1.4500000000000028
     m_MixInCurve:
       serializedVersion: 2
@@ -8716,7 +8734,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: mixamo.com
   - m_Version: 1
-    m_Start: 12.483333333333333
+    m_Start: 12.48333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -5959932584899210567}
     m_Duration: 9.000000000000002
@@ -8724,8 +8742,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 1901009520312897600}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.16666666666666785
-    m_BlendOutDuration: 0.31666666666666643
+    m_BlendInDuration: 0.16666666666666963
+    m_BlendOutDuration: 0.31666666666667
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -8749,7 +8767,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: LooksBack.com
   - m_Version: 1
-    m_Start: 23.716666666666665
+    m_Start: 23.71666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 1549992020378418041}
     m_Duration: 4.56666666666667
@@ -8758,7 +8776,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 1.4500000000000028
-    m_BlendOutDuration: 1.1000000000000014
+    m_BlendOutDuration: 1.0999999999999943
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -8782,7 +8800,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: idle.com
   - m_Version: 1
-    m_Start: 27.183333333333334
+    m_Start: 27.183333333333337
     m_ClipIn: 0
     m_Asset: {fileID: 3109835789171358305}
     m_Duration: 8.116666666666664
@@ -8790,53 +8808,17 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 1901009520312897600}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.1000000000000014
-    m_BlendOutDuration: 0.5833333333333286
+    m_BlendInDuration: 1.0999999999999943
+    m_BlendOutDuration: 0.5833333333333144
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -8851,7 +8833,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CoolWalk.com
   - m_Version: 1
-    m_Start: 34.71666666666667
+    m_Start: 34.71666666666668
     m_ClipIn: 0
     m_Asset: {fileID: -3732863714444441112}
     m_Duration: 4.7500005086263
@@ -8859,29 +8841,11 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 1901009520312897600}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.5833333333333286
+    m_BlendInDuration: 0.5833333333333144
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
